@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ng1fcr
+  host: ng1fcr
+  disk_quota: 1024M
+  services:
+  - ng1fcr-cloudantNoSQLDB
+  - ng1fcr-iotf-service
